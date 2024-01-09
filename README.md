@@ -4,6 +4,9 @@
 
 1. setup the app by create react app[ npx create-react-app (project name)].
 2. configure tailwind
+3. Header
+4. Login/Bg logo
+5. SignUp/SignIn(toogle feature).
 
 
 
