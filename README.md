@@ -15,6 +15,14 @@
 11. Adding redux store to our app( using navigate hook and api provide by firebase).
 12. update profile(by display name).
 12. Sign out api.
+13. Constant file ehich contains iamge urls.
+14. BUG_FIX: upadate profile name and photo_url by dispatching the action again.
+15. BUG_FIX: redirect to browse and login page when onAuthstateChanged(like event listener) changes to auth in(Header compo).
+
+16. BUG_FIX(good practice): when unmounting the component unsubscribe onAuthStateChanged callback.
+17. Register to tmdb and get acees of token and api.
+18. Get data from tmdb now playing api list.
+19. Create redux store to store the now playing movies.
 
 
 # FEATURES->
