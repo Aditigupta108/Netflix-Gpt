@@ -30,6 +30,11 @@
      -  Store Movie Trailer in movie slice and fetch Trailer key.
      -  Create custom hook (useTrailerVideo).
      -  Add tailwind to make video background awsome and add autoplay=1&mute=1.
+ 22. Create secondary container
+     - create movieList
+     - create movieCards
+     - add tailwind to make it look awesome.
+     - add more actions in movie slice and craete there custom hook like(popular,trending).    
 
 
 # FEATURES->
