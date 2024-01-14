@@ -46,7 +46,8 @@ const Header=()=>{
             alt="Netflix-logo"></img>
             
             <div className="p-5">
-                <button onClick={handleSignOut} className="font-extrabold text-xl">SIGN OUT</button>
+                <button onClick={handleSignOut} className="font-extrabold text-white text-xl">
+                  SIGN OUT</button>
             </div>
         </div>
     )

@@ -22,7 +22,14 @@
 16. BUG_FIX(good practice): when unmounting the component unsubscribe onAuthStateChanged callback.
 17. Register to tmdb and get acees of token and api.
 18. Get data from tmdb now playing api list.
-19. Create redux store to store the now playing movies.
+19. custom hook (useNowPlayingMovies)
+20. Create redux store to store the now playing movies.
+21. Create movieContainer
+     -  create Video title
+     -  Fetch Movie video api from tmdb and embedded youtube video.
+     -  Store Movie Trailer in movie slice and fetch Trailer key.
+     -  Create custom hook (useTrailerVideo).
+     -  Add tailwind to make video background awsome and add autoplay=1&mute=1.
 
 
 # FEATURES->
