@@ -1,11 +1,16 @@
 import Header from "./Header";
 import useNowPlayingMovies from "../Hooks/useNowPlayingMovies";
 import MovieContainer from "./MovieContainer";
+import SecondaryContainer from "./SecondaryContainer";
+import usePopularMovies from "../Hooks/usePopularMovies";
+import useTrendingMovies from "../Hooks/useTrendingMovies";
 
 const Browse=()=>{
 
     //fetching the data and updating my store
     useNowPlayingMovies();
+    usePopularMovies();
+    useTrendingMovies();
     return(
         <div>
             <Header />
@@ -18,6 +23,7 @@ const Browse=()=>{
                     - movie cart *n    
             */}
             <MovieContainer />
+            <SecondaryContainer />
         </div>
         );
 
