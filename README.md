@@ -34,7 +34,9 @@
      - create movieList
      - create movieCards
      - add tailwind to make it look awesome.
-     - add more actions in movie slice and craete there custom hook like(popular,trending).    
+     - add more actions in movie slice and craete there custom hook like(popular,trending).   
+23. GptSearch page(GptSearch Bar)
+24. Add multiLang feature    
 
 
 # FEATURES->
